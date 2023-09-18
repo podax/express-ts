@@ -13,4 +13,8 @@ UserRoutes.post(
   UserController.createUser
 );
 
+UserRoutes.get("/:userId", UserController.get);
+
+UserRoutes.get("/discount/details", )
+
 export default UserRoutes;
